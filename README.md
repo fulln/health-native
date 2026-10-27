@@ -6,6 +6,8 @@
 
 [快捷指令下载与安装](https://shortcuts.fulleen.com/) · [示例看板](https://shortcuts.fulleen.com/dashboard.html) · [GitHub](https://github.com/fulln/health-native)
 
+![下载与安装页面](docs/images/healthnative-download.jpg)
+
 ![合成示例看板](docs/images/healthnative-demo.jpg)
 
 ## 本地运行
