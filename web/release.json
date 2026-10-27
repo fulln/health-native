@@ -1,0 +1,12 @@
+{
+  "project": "HealthNative",
+  "version": "0.1.0",
+  "repository": "https://github.com/fulln/health-native",
+  "shortcut": {
+    "name": "HealthNativeDated",
+    "version": "2026.10.27",
+    "bytes": 32614,
+    "sha256": "50723601d8dde0c39058dc581d4ecb6ea31a935cd8c3370bede7532af0941548",
+    "actions": 121
+  }
+}

@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.private/
+data/
+outputs/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+**/health-native-*.json
+**/export.zip
+
+.omx/

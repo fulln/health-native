@@ -1,0 +1,859 @@
+{
+  "mode": "demo",
+  "generated_at": "2026-10-27T12:00:00+08:00",
+  "source": {
+    "label": "合成演示数据（不会读取本机）",
+    "directories": [],
+    "files_read": 0,
+    "files_skipped": 0,
+    "latest_export": null,
+    "warnings": []
+  },
+  "counts": {
+    "unique_samples": 210,
+    "duplicate_samples": 0
+  },
+  "days": [
+    {
+      "date": "2026-09-22",
+      "steps": null,
+      "active_kcal": null,
+      "heart_rate_avg_bpm": null,
+      "resting_bpm": null,
+      "weight_kg": null,
+      "sleep_minutes": null,
+      "sleep_stages": null,
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": [
+        "步数",
+        "活动能量"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "steps": 7633,
+      "active_kcal": 371,
+      "heart_rate_avg_bpm": 67,
+      "resting_bpm": 58,
+      "weight_kg": 68.5,
+      "sleep_minutes": 412,
+      "sleep_stages": {
+        "core": 191,
+        "deep": 79,
+        "rem": 100,
+        "asleep": 412
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-09-24",
+      "steps": 8366,
+      "active_kcal": 412,
+      "heart_rate_avg_bpm": 68,
+      "resting_bpm": 59,
+      "weight_kg": 68.6,
+      "sleep_minutes": 429,
+      "sleep_stages": {
+        "core": 197,
+        "deep": 83,
+        "rem": 105,
+        "asleep": 429
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-09-25",
+      "steps": 9099,
+      "active_kcal": 453,
+      "heart_rate_avg_bpm": 69,
+      "resting_bpm": 60,
+      "weight_kg": 68.8,
+      "sleep_minutes": 446,
+      "sleep_stages": {
+        "core": 203,
+        "deep": 87,
+        "rem": 95,
+        "asleep": 446
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-09-26",
+      "steps": 9832,
+      "active_kcal": 494,
+      "heart_rate_avg_bpm": 70,
+      "resting_bpm": 61,
+      "weight_kg": 68.9,
+      "sleep_minutes": 463,
+      "sleep_stages": {
+        "core": 209,
+        "deep": 75,
+        "rem": 100,
+        "asleep": 463
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-09-27",
+      "steps": 10565,
+      "active_kcal": 345,
+      "heart_rate_avg_bpm": 71,
+      "resting_bpm": 57,
+      "weight_kg": 69,
+      "sleep_minutes": 480,
+      "sleep_stages": {
+        "core": 185,
+        "deep": 79,
+        "rem": 105,
+        "asleep": 480
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-09-28",
+      "steps": 11298,
+      "active_kcal": 386,
+      "heart_rate_avg_bpm": 72,
+      "resting_bpm": 58,
+      "weight_kg": 68.4,
+      "sleep_minutes": 402,
+      "sleep_stages": {
+        "core": 191,
+        "deep": 83,
+        "rem": 95,
+        "asleep": 402
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-09-29",
+      "steps": 12031,
+      "active_kcal": 427,
+      "heart_rate_avg_bpm": 66,
+      "resting_bpm": 59,
+      "weight_kg": 68.5,
+      "sleep_minutes": 419,
+      "sleep_stages": {
+        "core": 197,
+        "deep": 87,
+        "rem": 100,
+        "asleep": 419
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-09-30",
+      "steps": 7564,
+      "active_kcal": 468,
+      "heart_rate_avg_bpm": 67,
+      "resting_bpm": 60,
+      "weight_kg": 68.6,
+      "sleep_minutes": 436,
+      "sleep_stages": {
+        "core": 203,
+        "deep": 75,
+        "rem": 105,
+        "asleep": 436
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-01",
+      "steps": null,
+      "active_kcal": null,
+      "heart_rate_avg_bpm": null,
+      "resting_bpm": null,
+      "weight_kg": 68.8,
+      "sleep_minutes": 453,
+      "sleep_stages": {
+        "core": 209,
+        "deep": 79,
+        "rem": 95,
+        "asleep": 453
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": [
+        "步数",
+        "活动能量"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "steps": 9030,
+      "active_kcal": 360,
+      "heart_rate_avg_bpm": 69,
+      "resting_bpm": 57,
+      "weight_kg": 68.9,
+      "sleep_minutes": 470,
+      "sleep_stages": {
+        "core": 185,
+        "deep": 83,
+        "rem": 100,
+        "asleep": 470
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-03",
+      "steps": 9763,
+      "active_kcal": 401,
+      "heart_rate_avg_bpm": 70,
+      "resting_bpm": 58,
+      "weight_kg": null,
+      "sleep_minutes": 487,
+      "sleep_stages": {
+        "core": 191,
+        "deep": 87,
+        "rem": 105,
+        "asleep": 487
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-04",
+      "steps": 10496,
+      "active_kcal": 442,
+      "heart_rate_avg_bpm": 71,
+      "resting_bpm": 59,
+      "weight_kg": 68.4,
+      "sleep_minutes": 409,
+      "sleep_stages": {
+        "core": 197,
+        "deep": 75,
+        "rem": 95,
+        "asleep": 409
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-05",
+      "steps": 11229,
+      "active_kcal": 483,
+      "heart_rate_avg_bpm": 72,
+      "resting_bpm": 60,
+      "weight_kg": 68.5,
+      "sleep_minutes": null,
+      "sleep_stages": null,
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": [
+        "睡眠"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "steps": 11962,
+      "active_kcal": 334,
+      "heart_rate_avg_bpm": 66,
+      "resting_bpm": 61,
+      "weight_kg": 68.6,
+      "sleep_minutes": 443,
+      "sleep_stages": {
+        "core": 209,
+        "deep": 83,
+        "rem": 105,
+        "asleep": 443
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-07",
+      "steps": 7495,
+      "active_kcal": 375,
+      "heart_rate_avg_bpm": 67,
+      "resting_bpm": 57,
+      "weight_kg": 68.8,
+      "sleep_minutes": 460,
+      "sleep_stages": {
+        "core": 185,
+        "deep": 87,
+        "rem": 95,
+        "asleep": 460
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-08",
+      "steps": 8228,
+      "active_kcal": 416,
+      "heart_rate_avg_bpm": 68,
+      "resting_bpm": 58,
+      "weight_kg": 68.9,
+      "sleep_minutes": 477,
+      "sleep_stages": {
+        "core": 191,
+        "deep": 75,
+        "rem": 100,
+        "asleep": 477
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-09",
+      "steps": 8961,
+      "active_kcal": 457,
+      "heart_rate_avg_bpm": 69,
+      "resting_bpm": 59,
+      "weight_kg": 69,
+      "sleep_minutes": 399,
+      "sleep_stages": {
+        "core": 197,
+        "deep": 79,
+        "rem": 105,
+        "asleep": 399
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-10",
+      "steps": null,
+      "active_kcal": null,
+      "heart_rate_avg_bpm": null,
+      "resting_bpm": null,
+      "weight_kg": 68.4,
+      "sleep_minutes": 416,
+      "sleep_stages": {
+        "core": 203,
+        "deep": 83,
+        "rem": 95,
+        "asleep": 416
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": [
+        "步数",
+        "活动能量"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "steps": 10427,
+      "active_kcal": 349,
+      "heart_rate_avg_bpm": 71,
+      "resting_bpm": 61,
+      "weight_kg": 68.5,
+      "sleep_minutes": 433,
+      "sleep_stages": {
+        "core": 209,
+        "deep": 87,
+        "rem": 100,
+        "asleep": 433
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-12",
+      "steps": 11160,
+      "active_kcal": 390,
+      "heart_rate_avg_bpm": 72,
+      "resting_bpm": 57,
+      "weight_kg": 68.6,
+      "sleep_minutes": 450,
+      "sleep_stages": {
+        "core": 185,
+        "deep": 75,
+        "rem": 105,
+        "asleep": 450
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-13",
+      "steps": 11893,
+      "active_kcal": 431,
+      "heart_rate_avg_bpm": 66,
+      "resting_bpm": 58,
+      "weight_kg": 68.8,
+      "sleep_minutes": 467,
+      "sleep_stages": {
+        "core": 191,
+        "deep": 79,
+        "rem": 95,
+        "asleep": 467
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-14",
+      "steps": 7426,
+      "active_kcal": 472,
+      "heart_rate_avg_bpm": 67,
+      "resting_bpm": 59,
+      "weight_kg": null,
+      "sleep_minutes": 484,
+      "sleep_stages": {
+        "core": 197,
+        "deep": 83,
+        "rem": 100,
+        "asleep": 484
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-15",
+      "steps": 8159,
+      "active_kcal": 513,
+      "heart_rate_avg_bpm": 68,
+      "resting_bpm": 60,
+      "weight_kg": 69,
+      "sleep_minutes": 406,
+      "sleep_stages": {
+        "core": 203,
+        "deep": 87,
+        "rem": 105,
+        "asleep": 406
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-16",
+      "steps": 8892,
+      "active_kcal": 364,
+      "heart_rate_avg_bpm": 69,
+      "resting_bpm": 61,
+      "weight_kg": 68.4,
+      "sleep_minutes": 423,
+      "sleep_stages": {
+        "core": 209,
+        "deep": 75,
+        "rem": 95,
+        "asleep": 423
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-17",
+      "steps": 9625,
+      "active_kcal": 405,
+      "heart_rate_avg_bpm": 70,
+      "resting_bpm": 57,
+      "weight_kg": 68.5,
+      "sleep_minutes": 440,
+      "sleep_stages": {
+        "core": 185,
+        "deep": 79,
+        "rem": 100,
+        "asleep": 440
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-18",
+      "steps": 10358,
+      "active_kcal": 446,
+      "heart_rate_avg_bpm": 71,
+      "resting_bpm": 58,
+      "weight_kg": 68.6,
+      "sleep_minutes": null,
+      "sleep_stages": null,
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": [
+        "睡眠"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "steps": null,
+      "active_kcal": null,
+      "heart_rate_avg_bpm": null,
+      "resting_bpm": null,
+      "weight_kg": 68.8,
+      "sleep_minutes": 474,
+      "sleep_stages": {
+        "core": 197,
+        "deep": 87,
+        "rem": 95,
+        "asleep": 474
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": [
+        "步数",
+        "活动能量"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "steps": 11824,
+      "active_kcal": 338,
+      "heart_rate_avg_bpm": 66,
+      "resting_bpm": 60,
+      "weight_kg": 68.9,
+      "sleep_minutes": 396,
+      "sleep_stages": {
+        "core": 203,
+        "deep": 75,
+        "rem": 100,
+        "asleep": 396
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-21",
+      "steps": 7357,
+      "active_kcal": 379,
+      "heart_rate_avg_bpm": 67,
+      "resting_bpm": 61,
+      "weight_kg": 69,
+      "sleep_minutes": 413,
+      "sleep_stages": {
+        "core": 209,
+        "deep": 79,
+        "rem": 105,
+        "asleep": 413
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-22",
+      "steps": 8090,
+      "active_kcal": 420,
+      "heart_rate_avg_bpm": 68,
+      "resting_bpm": 57,
+      "weight_kg": 68.4,
+      "sleep_minutes": 430,
+      "sleep_stages": {
+        "core": 185,
+        "deep": 83,
+        "rem": 95,
+        "asleep": 430
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-23",
+      "steps": 8823,
+      "active_kcal": 461,
+      "heart_rate_avg_bpm": 69,
+      "resting_bpm": 58,
+      "weight_kg": 68.5,
+      "sleep_minutes": 447,
+      "sleep_stages": {
+        "core": 191,
+        "deep": 87,
+        "rem": 100,
+        "asleep": 447
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-24",
+      "steps": 9556,
+      "active_kcal": 502,
+      "heart_rate_avg_bpm": 70,
+      "resting_bpm": 59,
+      "weight_kg": 68.6,
+      "sleep_minutes": 464,
+      "sleep_stages": {
+        "core": 197,
+        "deep": 75,
+        "rem": 105,
+        "asleep": 464
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-25",
+      "steps": 10289,
+      "active_kcal": 353,
+      "heart_rate_avg_bpm": 71,
+      "resting_bpm": 60,
+      "weight_kg": null,
+      "sleep_minutes": 481,
+      "sleep_stages": {
+        "core": 203,
+        "deep": 79,
+        "rem": 95,
+        "asleep": 481
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    },
+    {
+      "date": "2026-10-26",
+      "steps": 11022,
+      "active_kcal": 394,
+      "heart_rate_avg_bpm": 72,
+      "resting_bpm": 61,
+      "weight_kg": 68.9,
+      "sleep_minutes": 403,
+      "sleep_stages": {
+        "core": 209,
+        "deep": 83,
+        "rem": 100,
+        "asleep": 403
+      },
+      "sources": {
+        "steps": "合成数据",
+        "active_kcal": "合成数据",
+        "heart_rate_avg_bpm": "合成数据",
+        "resting_bpm": "合成数据",
+        "weight_kg": "合成数据",
+        "sleep_minutes": "合成数据"
+      },
+      "partial_metrics": []
+    }
+  ]
+}

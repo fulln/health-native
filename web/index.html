@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="下载 Apple 健康数据导出快捷指令，将六类健康记录保存到自己的 iCloud。附安装、每天自动运行及操作按钮设置。">
+<title>Apple 健康数据导出 · Fulleen 快捷指令</title>
+<link rel="stylesheet" href="landing.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+<header><div class="top wrap">
+<a class="brand" href="/" aria-label="Fulleen 快捷指令首页"><span class="brand-icon" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Fulleen <span class="brand-sub">快捷指令</span></a>
+<nav aria-label="页面导航"><a href="dashboard.html">数据看板</a><a href="#install">安装步骤</a><a href="#help">常见问题</a></nav>
+</div></header>
+<main id="main" class="wrap">
+<section class="hero" aria-labelledby="title">
+<div>
+<div class="app-heading"><span class="app-icon" aria-hidden="true"><svg width="29" height="29" viewBox="0 0 24 24"><path fill="#ef5976" d="M12 21s-9-5.7-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.3-9 12-9 12Z"/></svg></span><div><strong>iPhone 健康工具</strong><p class="eyebrow">Apple 快捷指令 · <a href="https://github.com/fulln/health-native">GitHub 开源</a></p></div></div>
+<h1 id="title">Apple 健康数据导出</h1>
+<p class="lead">把步数、心率、睡眠等 6 类健康记录，保存到你自己的 iCloud。</p>
+<div class="actions">
+<a class="primary" href="/downloads/2026-10-27-50723601/HealthNativeDated.shortcut" download="HealthNativeDated.shortcut"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>下载快捷指令</a>
+<a class="text-link" href="dashboard.html">预览健康看板 →</a>
+</div>
+<p class="hint">用 iPhone Safari 打开本页，下载后添加到「快捷指令」。</p>
+</div>
+<aside class="destination" aria-label="导出文件的保存位置">
+<h2>导出的文件放在哪里？</h2>
+<div class="flow-row"><div class="flow-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M20 5a5 5 0 0 0-8 1 5 5 0 0 0-8-1c-5 6 8 15 8 15s13-9 8-15Z" stroke="#d96b7f" stroke-width="1.7"/></svg></div><div><strong>Apple 健康</strong><small>读取你授权的健康记录</small></div></div>
+<div class="arrow" aria-hidden="true">↓</div>
+<div class="flow-row"><div class="flow-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Z" stroke="currentColor" stroke-width="1.6"/></svg></div><div><strong>iCloud 云盘 → 快捷指令</strong><small>每次运行生成一个带时间的 JSON 文件</small></div></div>
+<p class="destination-note">仅申请读取权限，健康内容保存在你的 iCloud 中。</p>
+</aside>
+</section>
+<div class="scope" aria-label="可导出的六类健康数据"><span class="scope-label">只读 6 类数据</span><ul><li>步数</li><li>活动能量</li><li>心率</li><li>静息心率</li><li>体重</li><li>睡眠</li></ul></div>
+<section id="install" class="section" aria-labelledby="install-title">
+<div class="section-heading"><h2 id="install-title">第一次使用，按这 3 步</h2><p>在 iPhone 上完成安装和首次授权</p></div>
+<ol class="steps">
+<li><span class="step-num" aria-hidden="true">1</span><h3>下载并添加</h3><p>用 Safari 点击上方下载按钮。打开下载的文件，选择「添加快捷指令」。</p></li>
+<li><span class="step-num" aria-hidden="true">2</span><h3>授权并运行一次</h3><p>打开「快捷指令」，运行 <b>HealthNativeDated</b>，允许读取健康数据和保存到自己的 iCloud。</p></li>
+<li><span class="step-num" aria-hidden="true">3</span><h3>查看导出结果</h3><p>打开「文件」→「iCloud 云盘」→「快捷指令」，找到刚生成的健康数据文件。</p></li>
+</ol>
+<div class="result-tip">✓ 看到新的导出文件，就完成了。接下来可以按需设置自动运行。</div>
+</section>
+<section class="section" aria-labelledby="dashboard-title">
+<div class="section-heading"><h2 id="dashboard-title">导出之后，在本机看趋势</h2><p>步数、活动、心率、体重与睡眠</p></div>
+<p class="lead">Mac 上运行开源本地看板，直接读取已同步的 iCloud 文件。多个 JSON 自动合并去重，支持 7 / 30 / 90 天趋势。</p>
+<div class="actions"><a class="primary" href="dashboard.html">查看示例看板</a><a class="text-link" href="https://github.com/fulln/health-native#本地运行">在 Mac 上查看自己的数据 ↗</a></div>
+<p class="hint">公开页面使用合成示例；你自己的健康记录通过本机服务读取。</p>
+</section>
+<section class="section" aria-labelledby="optional-title">
+<div class="section-heading"><h2 id="optional-title">装好以后，用起来更方便</h2><p>可选设置 · 点开查看操作方法</p></div>
+<div class="optional">
+<details><summary>每天早上 9 点自动运行</summary><div class="detail-body"><ol><li>打开「快捷指令」→「自动化」，新建「特定时间」自动化，设为每天 09:00。</li><li>选择「立即运行」，运行快捷指令 <b>HealthNativeDated</b>。</li></ol><p class="note">锁屏或权限状态可能限制健康读取。先手动运行成功，再检查次日的导出结果。</p></div></details>
+<details><summary>绑定 iPhone 实体操作按钮</summary><div class="detail-body"><p>在支持操作按钮的 iPhone 上，打开「设置」→「操作按钮」，选「快捷指令」，再选择 <b>HealthNativeDated</b>。设置后长按操作按钮即可运行。</p></div></details>
+</div>
+</section>
+<section id="help" class="section help" aria-labelledby="help-title">
+<div class="section-heading"><h2 id="help-title">常见问题</h2><p>遇到问题时，再展开对应说明</p></div>
+<div class="faq">
+<details><summary>文件已经生成，为什么 Mac 还没收到？</summary><div class="detail-body"><p>iCloud 上传是异步的。先检查 iPhone 的网络与 iCloud 云盘同步状态；Wi-Fi 的「低数据模式」可能限制后台上传。文件生成后，需要等待 iCloud 将它同步到 Mac。</p></div></details>
+<details><summary>提示「共享大量数据」，怎么处理？</summary><div class="detail-body"><p>在「设置」→「App」→「快捷指令」→「高级」中开启「允许共享大量数据」，再运行一次。这个选项是快捷指令的全局开关。</p></div></details>
+<details><summary>健康数据会上传到这个网站吗？</summary><div class="detail-body"><p>这个网站只提供快捷指令安装文件。指令仅读取你授权的六类数据，导出文件保存在你自己的 iCloud 云盘，不会将健康内容发送到本网站。</p></div></details>
+</div>
+<details class="file-info"><summary>版本与文件校验</summary><div class="detail-body">
+<div class="file-meta"><span>版本 2026.10.27</span><span>签名文件 · 31.9 KB</span><span>HealthNativeDated.shortcut</span></div>
+<p>导出文件名：<code>health-native-YYYY-MM-DD_HHmmss.json</code></p>
+<div class="checksum"><span class="note">SHA-256</span><code>50723601d8dde0c39058dc581d4ecb6ea31a935cd8c3370bede7532af0941548</code><div class="copy-row"><button class="copy" type="button" data-copy="50723601d8dde0c39058dc581d4ecb6ea31a935cd8c3370bede7532af0941548">复制校验值</button><span class="status" role="status" aria-live="polite"></span></div></div>
+</div></details>
+</section>
+</main>
+<footer><div class="footer-inner wrap"><span>Fulleen · 让日常操作更简单</span><div class="footer-links"><a href="https://github.com/fulln/health-native">GitHub · MIT 开源</a><a href="#install">安装指南</a><a href="https://support.apple.com/guide/shortcuts/share-shortcuts-apdf01f8c054/ios" target="_blank" rel="noopener noreferrer">Apple 快捷指令帮助 ↗</a></div></div></footer>
+<script src="landing.js" defer></script>
+</body>
+</html>

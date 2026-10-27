@@ -1,0 +1,6 @@
+*.shortcut binary
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.plist text eol=lf

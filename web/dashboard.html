@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="HealthNative 本地健康数据看板">
+  <title>HealthNative · 健康记录</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+<header class="topbar"><div class="shell topbar-inner"><a class="brand" href="index.html">Fulleen <span>HealthNative</span></a><a class="back-link" href="index.html">快捷指令说明</a></div></header>
+<main id="main" class="shell">
+  <section class="hero" aria-labelledby="page-title">
+    <div><p class="kicker" id="modeBadge">正在连接</p><h1 id="page-title">本地健康看板</h1><p class="lede">直接读取 iCloud 中的健康导出文件，查看每天记录和变化趋势。</p></div>
+    <aside class="status-card" aria-live="polite"><div class="status-heading"><span id="statusDot" class="status-dot"></span><strong id="statusTitle">读取中</strong></div><p id="statusText">正在获取最近一次记录…</p><button id="refreshBtn" class="button primary" type="button">刷新数据</button><a id="localGuide" class="local-guide" href="https://github.com/fulln/health-native#本地运行" hidden>查看自己的数据：本地运行指南 →</a></aside>
+  </section>
+  <section class="section" aria-labelledby="summary-title"><div class="section-heading"><div><p class="kicker">一眼了解</p><h2 id="summary-title">最近记录</h2></div><time id="summaryDate">—</time></div><div class="metric-grid">
+    <article class="metric-card"><span class="metric-label">步数</span><strong id="metricSteps">—</strong><span class="metric-unit">步</span></article>
+    <article class="metric-card"><span class="metric-label">活动能量</span><strong id="metricEnergy">—</strong><span class="metric-unit">kcal</span></article>
+    <article class="metric-card"><span class="metric-label">静息心率</span><strong id="metricResting">—</strong><span class="metric-unit">bpm</span></article>
+    <article class="metric-card"><span class="metric-label">心率记录均值</span><strong id="metricHeart">—</strong><span class="metric-unit">bpm</span></article>
+    <article class="metric-card"><span class="metric-label">睡眠</span><strong id="metricSleep">—</strong><span class="metric-unit">小时 / 分钟</span></article>
+    <article class="metric-card"><span class="metric-label">体重</span><strong id="metricWeight">—</strong><span class="metric-unit">kg</span></article>
+  </div></section>
+  <section class="section trend-section" aria-labelledby="trend-title"><div class="section-heading"><div><p class="kicker">变化趋势</p><h2 id="trend-title">按日查看</h2></div><span id="rangeLabel" class="muted">最近 7 天</span></div>
+    <div class="controls"><div class="control-group" role="group" aria-label="日期范围"><span class="control-label">范围</span><button class="choice active" data-range="7" type="button" aria-pressed="true">7 天</button><button class="choice" data-range="30" type="button" aria-pressed="false">30 天</button><button class="choice" data-range="90" type="button" aria-pressed="false">90 天</button></div><div class="control-group" role="group" aria-label="查看指标"><span class="control-label">指标</span><button class="choice active" data-metric="steps" type="button" aria-pressed="true">步数</button><button class="choice" data-metric="active_kcal" type="button" aria-pressed="false">活动能量</button><button class="choice" data-metric="heart_rate_avg_bpm" type="button" aria-pressed="false">心率记录均值</button><button class="choice" data-metric="resting_bpm" type="button" aria-pressed="false">静息心率</button><button class="choice" data-metric="weight_kg" type="button" aria-pressed="false">体重</button><button class="choice" data-metric="sleep_minutes" type="button" aria-pressed="false">睡眠</button></div></div>
+    <div id="chart" class="chart-wrap" role="group" aria-label="趋势图"></div><p id="chartSummary" class="visually-hidden"></p><div class="day-picker"><label for="selectedDay">查看日期</label><select id="selectedDay"></select></div><p id="chartSelection" class="selection" aria-live="polite"></p>
+  </section>
+  <section class="section secondary-section"><details id="detailsPanel"><summary>来源、文件状态与数据质量</summary><div class="details-body"><div class="source-grid"><div><span class="detail-label">来源</span><p id="sourceLabel">—</p></div><div><span class="detail-label">最近采集启动</span><p id="latestExport">—</p></div><div><span class="detail-label">已读文件</span><p id="fileStatus">—</p></div></div><div id="warnings" class="notice" hidden></div><h3>每天的记录</h3><div id="dayList" class="day-list"></div></div></details></section>
+  <p class="privacy-note">🔒 本地模式只访问本机服务；公开演示使用合成数据，不会上传你的健康记录。</p>
+</main>
+<script src="dashboard.js" defer></script>
+</body></html>
